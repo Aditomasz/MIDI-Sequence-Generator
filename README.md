@@ -13,11 +13,12 @@ A Gradio web UI for using GPT structure for creating music in .mid files.
 
 To learn how to use the various features, check out the Documentation: 
 https://github.com/Aditomasz/MIDI-Sequence-Generator/wiki
-// currently not fully implemented
 
 ## Requirements
 
-This program requires cuda to be installed alongside machine with cuda compatible GPU.
+This program is optimized for CUDA and performs best when run on a machine with a CUDA-compatible GPU. In the absence of CUDA or a compatible GPU, the program will automatically fall back to CPU usage, which is fully supported albeit with potentially reduced performance.
+
+For optimal performance, ensure CUDA is installed by following the NVIDIA CUDA Installation Guide for Windows:
 https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html
 
 ## Instalation
