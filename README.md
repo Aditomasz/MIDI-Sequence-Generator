@@ -1,6 +1,6 @@
 # MIDI Creation AI
 
-A Gradio web UI for using GPT structure for creating music in .mid files.
+A Gradio web UI for using GPT and LSTM structures for creating music in .mid files.
 
 ## Features
 
